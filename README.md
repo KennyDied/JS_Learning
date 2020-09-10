@@ -1,1 +1,1 @@
-# JS_Learning
+Doing smth cool
