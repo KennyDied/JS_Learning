@@ -1,5 +1,7 @@
-.background_image {
-    
+.login_field {
+	position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 
