@@ -1,3 +1,12 @@
+body {
+    background: url(pics/login_picture.jpg) no-repeat; /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+
 .login_field {
 	position: absolute;
     top: 50%;
