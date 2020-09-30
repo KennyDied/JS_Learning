@@ -5,15 +5,16 @@ body {
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
-   }
+}
 
 .login_field {
-    width: 15%;
-    height: 35%;
+    width: 35%;
+    height: 40%;
     
     background: rgba(198, 203, 209, 0.8);
-    border: 1px solid #423e3e;
     text-align: center;    
+    box-shadow: 3px 3px 10px -2px #4E4F50;
+
 
     position: absolute;
     left: 50%;
@@ -23,9 +24,26 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-   
+    
 }
 
+#login, #password{
+    background: #9AA0A7;
+    border: 0px;
+    text-align: center;  
+    display: inline-block;
+
+
+    width: 20%;
+    height: 10%;
+}
+
+#entry{
+    border: 0px;
+    background: #C0C0C0;
+    width: 40%;
+    height: 15%;
+}
 
 /* Наведись и появится хуйня */
 #panel {
