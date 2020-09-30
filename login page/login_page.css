@@ -10,7 +10,8 @@ body {
 .login_field {
     width: 15%;
     height: 35%;
-    background: #c6cbd1;
+    
+    background: rgba(198, 203, 209, 0.8);
     border: 1px solid #423e3e;
     text-align: center;    
 
@@ -22,9 +23,9 @@ body {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-
-    opacity: .8
+   
 }
+
 
 /* Наведись и появится хуйня */
 #panel {
