@@ -11,5 +11,6 @@ document.getElementById('entry').onclick = function () {
 		out.innerHTML = 'Bababoi';
 		snd.play();
 		snd.currentTime=0;
+		alert('Incorrect password')
 	}
 }
