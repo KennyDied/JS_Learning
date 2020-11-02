@@ -6,7 +6,7 @@ document.getElementById('entry').onclick = function () {
 
 	if (login === 'Danila' && password === '12211234' || login === 'Olesya' && password === '1928') {
 		out.innerHTML = 'Welcome';
-		window.location.href = "main_page.html";
+		window.location.href = "../MainPage/main_page.html";
 	}
 	else {
 		out.innerHTML = 'Bababoi';

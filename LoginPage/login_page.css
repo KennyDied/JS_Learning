@@ -7,6 +7,20 @@ body {
     background-size: 100%; /* Современные браузеры */
 }
 
+
+#login {
+    
+}
+
+#password {
+    
+}
+
+.pass_button {
+
+}
+
+
 .login_field {
     width: 35%;
     height: 40%;
@@ -14,9 +28,8 @@ body {
     background: rgba(198, 203, 209, 0.8);
     text-align: center;    
     box-shadow: 3px 3px 10px -2px #4E4F50;
-
-
-    position: absolute;
+  
+    position: absolute;         /*эта хуйня мешает пропорциональному увеличению*/   
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
